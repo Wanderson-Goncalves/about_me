@@ -1,0 +1,88 @@
+@import url(_reset.css);
+@import url(_variable.css);
+
+body {
+    background-color: #191970;
+    color: var(--text-color);
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: var(--text-corrido);
+    min-height: 100vh;
+    padding: 16px;
+}
+
+header {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    width: 109.62px;
+}
+.navbar {
+    align-items: center;
+    display: flex;
+}
+.navbar ul {
+    display: flex;
+    gap: 25.88px;
+}
+
+.navbar ul li {
+    align-items: center;
+    background-color: #2b8900;
+    border-radius: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    min-width: 109.62px;
+    min-height: 25.88px;
+}
+
+.navbar ul li a {
+    font-weight: var(--text-subtitulo);
+}
+
+.header button {
+    background-color: #2b8900;
+    border-radius: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 16px;
+    font-weight: var(--text-titulo);
+    height: 41.87384px;
+    width: 171px;
+}
+main {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 25.88px;
+}
+.resumo {
+    display: flex;
+    justify-content: center;
+
+
+}
+.resumo img {
+    width: 292px;
+    border-radius: 25.88px;
+}
+.resumo div {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+
+}
+.resumo div h1 {
+    font-size: 41.87384px;
+    font-weight: var(--text-titulo);
+    padding-bottom: 25.88px;
+}
+.resumo div p{
+    line-height: 1.618;
+}

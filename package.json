@@ -1,0 +1,12 @@
+{
+  "name": "about_me",
+  "version": "1.0.0",
+  "description": "curriculum sobre mim",
+  "license": "ISC",
+  "author": "Wanderson",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

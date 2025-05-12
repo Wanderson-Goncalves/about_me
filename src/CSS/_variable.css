@@ -1,0 +1,14 @@
+:root{
+    /* --background-color: linear-gradient(to bottom, #191970, #351970, #511970, #195070); */
+    
+    --text-color: #fff;
+
+    --text-family:"Roboto", sans-serif;
+
+    --text-corrido: 400;
+    --text-titulo: 700;
+    --text-subtitulo:500;
+    --tetx-enfase: 300;
+
+
+}
